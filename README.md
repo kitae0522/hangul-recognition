@@ -1,11 +1,23 @@
-# hangul-recognition
-한글 인식기
+# 한글 인식기
 
-## TODO
-- [x] 손글씨 폰트로 117,500개의 글자 이미지 제작
-- [x] 모델 제작
-- [ ] 모델 API 배포
-- [ ] 테스트
+## Result
+| img | predict | answer |
+| - | - | - |
+|![0](./docs/result/0.png)|륨|륨|
+|![1](./docs/result/1.png)|춤|춤|
+|![2](./docs/result/2.png)|쵭|쵭|
+|![3](./docs/result/3.png)|띤|띤|
+|![4](./docs/result/4.png)|뮬|뮬|
+|![5](./docs/result/5.png)|단|단|
+|![6](./docs/result/6.png)|큅|큅|
+|![7](./docs/result/7.png)|랭|랭|
+|![8](./docs/result/8.png)|너|너|
+|![9](./docs/result/9.png)|깼|깼|
+|![10](./docs/result/10.png)|낚|낚|
+|![11](./docs/result/11.png)|녈|녈|
+|![12](./docs/result/12.png)|졍|졀|
+|![13](./docs/result/13.png)|탐|탐|
+|![14](./docs/result/14.png)|졔|졔|
 
 ## 사용된 손글씨 폰트 목록
 
