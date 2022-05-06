@@ -131,3 +131,4 @@ dmypy.json
 
 data/*.jpeg
 model.h5
+start.py
