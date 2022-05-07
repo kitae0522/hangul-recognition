@@ -53,7 +53,7 @@ $ wget -O dataset.zip https://raw.githubusercontent.com/kitae0522/hangul-recogni
 
 | <img src="./docs/model_fit_result_acc.png" width="480px"> | <img src="./docs/model_fit_result_loss.png" width="480px">
 | - | - | 
-| Model accuracy | Model 
+| Model accuracy | Model loss
 
 # Give me feedback!
 - Tel : 010-7447-1509
