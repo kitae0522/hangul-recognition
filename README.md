@@ -15,9 +15,9 @@
 
 # 시작하며...
 
-여러가지의 CNN 모델에 대해 공부하던 도중, 우연히 [@junstar92](https://github.com/junstar92)님의 깃헙에서 [한글 음절 인식기](https://github.com/junstar92/hangul-syllable-recognition)을 보게되었고, 토이 프로젝트로 한글 음절 OCR을 구현했으며, [ngrok](https://ngrok.com/)과 [Flask](https://flask.palletsprojects.com/)를 사용해 API를 배포해보았습니다.
+여러 가지의 CNN 모델에 관해 공부하던 도중, 우연히 [@junstar92](https://github.com/junstar92)님의 깃헙에서 [한글 음절 인식기](https://github.com/junstar92/hangul-syllable-recognition)를 보게 되었고, 이후 구체적인 개발 계획을 세워, 토이 프로젝트로 한글 음절 OCR을 개발했습니다. 여기에 그치지 않고, [ngrok](https://ngrok.com/)과 [Flask](https://flask.palletsprojects.com/)를 사용해 API를 배포했습니다.
 
-전체 소스코드는 [여기](./hangul_recognition.ipynb)를 누르시면 확인할 수 있습니다.
+전체 소스 코드는 [여기](./hangul_recognition.ipynb)를 누르시면 확인할 수 있습니다.
 
 # 데이터셋
 
@@ -41,7 +41,7 @@ $ wget -O dataset.zip https://raw.githubusercontent.com/kitae0522/hangul-recogni
 
 # 학습 결과
 
-`train` 데이터셋에서 약 99%의 accuracy를, 0.05의 loas, `valid` 데이터셋에서 약 98%의 accuracy를, 0.06의 loss를 가지며 학습을 완료했습니다.
+`train` 데이터셋에서 약 99%의 accuracy를, 0.05의 loss, `valid` 데이터셋에서 약 98%의 accuracy를, 0.06의 loss를 가지며 학습을 완료했습니다.
 
 <center>
 
@@ -56,7 +56,6 @@ $ wget -O dataset.zip https://raw.githubusercontent.com/kitae0522/hangul-recogni
 | Model accuracy | Model loss
 
 # Give me feedback!
-- Tel : 010-7447-1509
 - E-Mail : kitae040522@gmail.com
 
-컴퓨터 비전을 공부하고 있는 고등학생입니다. 피드백을 남겨주시면 감사하겠습니다.
+컴퓨터 비전을 공부하고 있는 고등학생입니다. 위 이메일이나 이슈로 피드백을 남겨주시면 감사하겠습니다.
